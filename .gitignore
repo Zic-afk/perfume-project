@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local browser previews and visual verification artifacts
+.artifacts/
+.browser-preview*/

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:motion": "node scripts/check-motion.mjs",
+    "test:visual": "node scripts/verify-experience.mjs"
   },
   "devDependencies": {
     "vite": "^8.3.5",
